@@ -1,4 +1,4 @@
-import HeroImg from '../assets/dev.png';
+import HeroImg from '../assets/Nikita J.png';
 import { cards } from '../utils/Data';
 import { v4 as uuid } from 'uuid';
 import { useEffect, useRef } from 'react';
