@@ -10,8 +10,7 @@ import Portfolio2 from '../assets/project-slider-img-2.png';
 import Portfolio3 from '../assets/project-slider-img-3.png';
 import Portfolio4 from '../assets/project-slider-img-4.png';
 import Portfolio6 from '../assets/project-slider-img-5.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDownload } from '@fortawesome/free-solid-svg-icons';
+import { FaDownload } from 'react-icons/fa';
 
 const Home = () => {
 	const skillRef = useRef(null);
@@ -79,7 +78,7 @@ const Home = () => {
 						</h3>
 					</div>
 					<a href='/resume.pdf' download='resume.pdf' className='button'>
-						Get Resume <FontAwesomeIcon icon={faDownload} className='download-icon'/>
+						Get Resume <FaDownload className='download-icon' />						
 					</a>
 				</div>
 				<div className='hero-section__right'>
